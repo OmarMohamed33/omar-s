@@ -1,0 +1,118 @@
+*
+{
+    margin: 0 ;
+    padding: 0 ;
+	font-family: Times New Roman ;
+}
+
+
+body
+{
+   background-size: cover;
+   background-image: url(EGback.jpg);
+}
+#listofheader
+{
+    
+    padding-left: 55%;
+    padding-right:   50px;
+    font-size: 110%;
+    padding-right: 30px;
+    text-decoration: none; 
+    color: white;
+}
+.elementoflist
+{
+    display: inline-block;
+    padding-right:   50px;
+    text-decoration: none ;
+    color: white;
+}
+#title{
+    background: #01443d;
+    color: white ;
+    padding: 20px ;
+    text-align: center ;
+    font-style: normal;
+    font-size: 140%;
+    font-weight: bold ;
+}
+
+.boxx
+{
+    width: 800px;
+ height: 500px;
+  color:  #fff;
+  background :rgba(60, 179, 113,0.3);
+
+ top: 55%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ box-sizing: border-box;
+ margin-right: 9%; 
+ margin-left:40%; 
+border-radius: 20px;
+
+}
+
+
+#paragraph{
+    height: 470px ;
+    padding: 50px 0px 60px 20px ;
+    color: black ;
+    font-style: normal ;
+    font-size: 120% ;
+    text-align: left ;
+}
+#para{
+    padding-left: 40px ;
+}
+.a_para{
+    font-size: 120%;
+    font-weight: bold ;
+    text-decoration: none;
+    color: black;
+    padding-right: 360px ;
+}
+
+
+
+
+#slidebar{
+    padding: 0px 0px 0px 0px;
+    font-family: Times New Roman ;
+    font-size: 140%;
+    font-weight: bold ;
+    text-align: center ;
+    background-color: #01443d;
+    float: right;
+    width: 16% ;
+    color: white;
+    height: 585px ;
+}
+
+
+
+
+#footer{
+    background:#01443d;
+    color: white ;
+    padding: 14px 14px 14px 14px ;
+    text-align: center;
+    font-style: normal;
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 582px;
+
+}
+.a_footer{
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    cursor: pointer;
+    background: #f0a023;
+    color: #000;
+}

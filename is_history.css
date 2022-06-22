@@ -1,0 +1,113 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: Times New Roman ;
+}
+
+body
+{
+    background-image: url(is-his4.jpg);
+    background-size: cover;
+}
+
+#title{
+    background: #6ab04c;
+    color: white ;
+    padding: 20px ;
+    text-align: center ;
+    font-style: normal;
+    font-size: 140%;
+    font-weight: bold ;
+}
+
+
+#listofheader
+{
+    
+    padding-left: 55%;
+    padding-right:   50px;
+    font-size: 110%;
+    padding-right: 30px;
+    text-decoration: none; 
+    color: white;
+}
+.elementoflist
+{
+    display: inline-block;
+    padding-right:   50px;
+    text-decoration: none ;
+    color: white;
+}
+
+#paragraph{
+    height: 425px ;
+    padding: 50px 20px 50px 0px ;
+    color: white ;
+    font-style: normal ;
+    font-size: 140% ;
+    text-align: right ;
+}
+#para{
+    padding-right: 25px ;
+}
+.a_para{
+    font-size: 120%;
+    font-weight: bold ;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#slidebar{
+    padding: 0px 0px 0px 0px;
+    font-family: Times New Roman ;
+    font-size: 140%;
+    font-weight: bold ;
+    text-align: center ;
+    background-color:#6ab04c;
+    float: left;
+    width: 16% ;
+   margin: 0px ;
+   height: 535px ;
+}
+
+.boxx
+{
+    width: 800px;
+ height: 422px;
+  color:  #fff;
+  background :rgba(0,0,0,0.2);
+
+ top: 50%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ box-sizing: border-box;
+ margin-right: 0%; 
+ margin-left:   61%; 
+border-radius: 20px;
+
+}
+
+
+#footer{
+    background: #6ab04c;
+    color: white ;
+    padding: 15px 15px 15px 18px ;
+    text-align: center;
+    font-style: normal;
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 535px;  
+}
+.a_footer{
+    padding-right: 40px;
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    cursor: pointer;
+    background: #f0a023;
+    color: #000;
+}

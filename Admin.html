@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		
+		function changeColor_H(color)
+		{
+		   document.getElementById("title").style.background=color;
+		   document.getElementById("title").color = localStorage.getItem("math.html");
+		}
+		function changeColor_N(color)
+		{
+		   document.getElementById("nav").style.background=color;
+		}
+		function changeColor_S(color)
+		{
+		   document.getElementById("side").style.background=color;
+		}
+		function changeColor_B(color)
+		{
+		   document.getElementById("body").style.background=color;
+		}
+		function changeColor_F(color)
+		{
+		   document.getElementById("foot").style.background=color;
+		}
+    </script> 
+ <title>Admin page</title>
+ <link rel="stylesheet" type="text/css" href="Admin.css" >
+</head>
+
+<body>
+<header id="title"> 
+	     <h1> TITLE </h1>
+<div id="T" >
+<input type="button" id="AliceBlue"     value="AliceBlue"      onclick="changeColor_H('AliceBlue')"/>
+<input type="button" id="Black"         value="Black"          onclick="changeColor_H('Black')"/>
+<input type="button" id="DarkMagenta"   value="DarkMagenta"    onclick="changeColor_H('DarkMagenta')"/>
+<input type="button" id="DarkSlateBlue" value="DarkSlateBlue"  onclick="changeColor_H('DarkSlateBlue')"/>
+<input type="button" id="DarkSlateGray" value="DarkSlateGray"  onclick="changeColor_H('DarkSlateGray')"/>
+<input type="button" id="DarkViolet"    value="DarkViolet"     onclick="changeColor_H('DarkViolet')"/>
+<input type="button" id="DeepSkyBlue"   value="DeepSkyBlue"    onclick="changeColor_H('DeepSkyBlue')"/>
+
+</header>
+
+
+<nav id="nav">
+	 <h1>NAV</h1>
+<div id="T" >
+<input type="button" id="AliceBlue"     value="AliceBlue"      onclick="changeColor_N('AliceBlue')"/>
+<input type="button" id="Black"         value="Black"          onclick="changeColor_N('Black')"/>
+<input type="button" id="Blue"          value="Blue"           onclick="changeColor_N('Blue')"/>
+<input type="button" id="CadetBlue"     value="CadetBlue"      onclick="changeColor_N('CadetBlue')"/>
+<input type="button" id="CornflowerBlue"value="CornflowerBlue" onclick="changeColor_N('CornflowerBlue')"/>
+<input type="button" id="Cornsilk"      value="Cornsilk"       onclick="changeColor_N('Cornsilk')"/>
+<input type="button" id="Crimson"       value="Crimson"        onclick="changeColor_N('Crimson')"/>
+
+</div>
+</nav>
+
+
+<aside id="side">
+    <h1>SIDE</h1>
+<div id="T" >
+<input type="button" id="DeepSkyBlue"   value="DeepSkyBlue"    onclick="changeColor_S('DeepSkyBlue')"/>
+<input type="button" id="DimGrey"       value="DimGrey"        onclick="changeColor_S('DimGrey')"/>
+<input type="button" id="DodgerBlue"    value="DodgerBlue"     onclick="changeColor_S('DodgerBlue')"/>
+<input type="button" id="FireBrick"     value="FireBrick"      onclick="changeColor_S('FireBrick')"/>
+<input type="button" id="FloralWhite"   value="FloralWhite"    onclick="changeColor_S('FloralWhite')"/>
+<input type="button" id="Gainsboro"     value="Gainsboro"      onclick="changeColor_S('Gainsboro')"/>
+<input type="button" id="Gray"          value="Gray"           onclick="changeColor_S('Gray')"/>
+</div>
+</aside>
+
+<section id="body">
+	<article>
+		<h1>BODY</h1>
+<div id="T" >
+
+<input type="button" id="DarkSlateGray" value="DarkSlateGray"  onclick="changeColor_B('DarkSlateGray')"/>
+<input type="button" id="DarkViolet"    value="DarkViolet"     onclick="changeColor_B('DarkViolet')"/>
+<input type="button" id="DeepSkyBlue"   value="DeepSkyBlue"    onclick="changeColor_B('DeepSkyBlue')"/>
+<input type="button" id="DimGrey"       value="DimGrey"        onclick="changeColor_B('DimGrey')"/>
+<input type="button" id="DodgerBlue"    value="DodgerBlue"     onclick="changeColor_B('DodgerBlue')"/>
+<input type="button" id="FireBrick"     value="FireBrick"      onclick="changeColor_B('FireBrick')"/>
+<input type="button" id="FloralWhite"   value="FloralWhite"    onclick="changeColor_B('FloralWhite')"/>
+<input type="button" id="Gainsboro"     value="Gainsboro"      onclick="changeColor_B('Gainsboro')"/>
+</div>
+
+<div>
+	<button type="button" onclick='document.getElementById("p1").innerHTML="WELCOME TO HOUSE OF WISDOM"'>
+	CLICK HERE TO DISPLAY!
+	</button>
+	<p id="p1"></p>
+	<button type="button" onclick='document.getElementById("p1").innerHTML=""'>
+	CLICK HERE TO CLEAR!
+	</button>
+	<p id="p1"></p>
+</div> 
+	</article>
+
+</section>
+
+<footer id="foot">
+	<h1>FOOTER</h1>
+<div id="T" >
+
+<input type="button" id="DarkMagenta"   value="DarkMagenta"    onclick="changeColor_F('DarkMagenta')"/>
+<input type="button" id="DarkOrchid"    value="DarkOrchid" 	   onclick="changeColor_F('DarkOrchid')"/>
+<input type="button" id="DarkOrange"    value="DarkOrange"     onclick="changeColor_F('DarkOrange')"/>
+<input type="button" id="DarkRed"       value="DarkRed"        onclick="changeColor_F('DarkRed')"/>
+<input type="button" id="DarkSlateBlue" value="DarkSlateBlue"  onclick="changeColor_F('DarkSlateBlue')"/>
+<input type="button" id="DarkSlateGray" value="DarkSlateGray"  onclick="changeColor_F('DarkSlateGray')"/>
+<input type="button" id="DarkViolet"    value="DarkViolet"     onclick="changeColor_F('DarkViolet')"/>
+</div>
+</footer>
+
+</body>
+
+
+</html>

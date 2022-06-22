@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="the website is a comprehensive scientific library of many sciences in many fields and contains articles and many scientific papers " content="project">
+  <script type="text/javascript">
+		function validateform(){
+			var valid = true;
+			var x1="ali@gmail.com"  ;
+			var x1pass="1234";
+			var x2="zidan@gmail.com";
+			var x2pass="1234";
+			var x3="admin@gmail.com";
+			var x3pass="1234";
+			if(document.form.Email.value=="")
+			{
+				alert("Email is empty");
+				document.form.Email.focus();
+				valid=false;
+			}
+			else if(document.form.passw.value==""){
+				alert("password is empty");
+				document.form.passw.focus();
+				valid=false;
+			}
+			else if(document.form.Email.value.indexOf("@")==-1 || document.form.Email.value.indexOf(".")==-1)
+			{
+				alert("please enter valid email");
+				document.form.Email.value.focus();
+				valid=false;
+			}
+			else if((document.form.Email.value==x1 && document.form.passw.value==x1pass) || (document.form.Email.value==x2 && document.form.passw.value==x2pass) || (document.form.Email.value==x3 && document.form.passw.value==x3pass)){
+				alert("ADMIN");
+				window.open("Admin.html");
+			}
+			else
+			{
+				if(document.form.Email.value==x1 ||document.form.Email.value==x2 || document.form.Email.value==x3 )
+				{
+					alert(" you are admin , but password is incorrect")
+				}
+				else
+				{
+					alert("welcome to the house of wisdom");
+				    window.open("p.html");
+				}
+				
+			}
+			return valid;
+		}
+
+	</script>
+    <title>
+     login 
+    </title>
+    <link rel="stylesheet" type="text/css" href="tlogin.css">
+</head>
+
+
+
+<body>
+ <div class="loginbox"   >
+    <img src="4ed03a13-0d19-463f-bbc4-9337f330f8ef.jpg" class="avatar">
+    <h1>Login</h1>
+<form name="form" onsubmit="return validateform()">
+
+ <label>E-mail</label>
+ <input type="Username" name="Email" placeholder="Enter E-mail">
+ <br>
+ <br>
+ <label>Password</label>
+ <input type="Password" name="passw" placeholder="Enter Password" >
+ <br>
+ <br>
+ <input type="Submit" value="login">
+ <input type="reset" value="Reset to Default">
+ <label>Remember Me </label> 
+ <input type="checkbox">
+
+ </form>
+  </div>
+</body>
+ 
+</html>

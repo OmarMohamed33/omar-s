@@ -1,0 +1,116 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+	font-family: Times New Roman ;
+}
+
+body
+{
+    background-image: url(psychologyback.jpg);
+    background-size: cover;
+}
+
+#title
+{
+    background: #e22f70;
+    color: white ;
+    padding: 20px ;
+    text-align: center ;
+    font-style: normal;
+    font-size: 140%;
+    font-weight: bold ;
+}
+
+#listofheader
+{
+    
+    padding-left: 55%;
+    padding-right:   50px;
+    font-size: 110%;
+    padding-right: 30px;
+    text-decoration: none; 
+    color: white;
+}
+.elementoflist
+{
+    display: inline-block;
+    padding-right:   50px;
+    text-decoration: none ;
+    color: white;
+}
+
+#paragraph{
+    height: 420px ;
+    padding: 50px 0px 60px 20px ;
+    color: white ;
+    font-style: normal ;
+    font-size: 140% ;
+    text-align: left ;
+}
+#para{
+    padding-left: 40px ;
+}
+.a_para{
+    font-size: 120%;
+    font-weight: bold ;
+    text-decoration: none;
+    color: white;
+    padding-right: 360px ;
+
+}
+
+
+
+#slidebar{
+    padding: 0px 0px 0px 0px;
+    font-family: Times New Roman ;
+    font-size: 140%;
+    font-weight: bold ;
+    text-align: center ;
+    background-color: #e22f70;
+    float: right;
+    width: 16% ;
+    margin: 0px ;
+    color: white;
+    height: 545px ;
+}
+
+.boxx
+{
+background: rgba(255, 99, 71, 0.2);
+ width: 800px;
+ height: 440px;
+  color:  #fff;
+ top: 55%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ box-sizing: border-box;
+ margin-right: 9%; 
+ margin-left:40%; 
+border-radius: 20px;
+    
+}
+
+
+#footer{
+    background: #e22f70;
+    color: white ;
+    padding: 15px 15px 15px 15px ;
+    text-align: center;
+    font-style: normal;
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 544px;
+
+}
+.a_footer{
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    cursor: pointer;
+    background: #e22f70;
+    color: #000;
+}

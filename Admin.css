@@ -1,0 +1,73 @@
+*{ 
+    margin: 0 ;
+    padding: 0 ;
+	font-family: Times New Roman ;
+}
+
+
+#title
+{
+	margin: 5px ;
+	background-color: Silver;
+	padding: 15px 0px 15px 0px;
+	text-align: center;
+	color: black;
+
+}
+
+#nav
+{
+    margin: 5px ;
+	padding: 10px;
+    background: Silver ;
+    color: black;
+    text-align: center;
+}
+
+#side
+{
+	margin: 5px ;
+	float: right;
+    background-color: Silver;
+    height:  410px ;
+    color:   black ;
+    text-align: center ;
+    width: 21%;
+}
+
+#body
+{
+	margin: 5px ;
+	padding: 10px;
+    float: left;
+    background-color: Silver;
+    height:  390px ;
+    color:   black ;
+    text-align: center ;
+    width: 75.5%;
+}
+#p1
+{
+  padding: 30px;
+  font-size: 200% ;
+}
+
+
+#foot
+{
+    margin:  425px 0px 0px 0px;
+	padding: 10px;
+    background: Silver ;
+    color: black;
+    text-align: center;
+}
+
+#T
+{
+	padding: 15px  ;
+}
+
+button
+{
+	padding: 15px;
+}

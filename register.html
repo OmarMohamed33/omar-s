@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="registerr.css">
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function validateform(){
+			var valid = true;
+			if(document.form1.Email1.value==""){
+				alert("Email is empty");
+				document.form1.Email1.focus();
+				valid=false;
+			}
+			else if(document.form1.passw1.value==""){
+				alert("password is empty");
+				document.form1.passw1.focus();
+				valid=false;
+			}
+			else if(document.form1.passw2.value==""){
+				alert("confirm password is empty");
+				document.form1.passw2.focus();
+				valid=false;
+			}
+			else if(document.form1.Email1.value.indexOf("@")==-1 || document.form1.Email1.value.indexOf(".")==-1){
+				alert("please enter valid email");
+				document.form1.Email1.value.focus();
+				valid=false;
+			}
+			else if(document.form1.passw1.value!=document.form1.passw2.value){
+				alert("please make sure the confirm password and password are equal");
+				document.form1.passw1.value.focus();
+				document.form1.passw2.value.focus();
+				valid=false;
+			}
+			else
+			{
+				window.open("tlogin.html");
+			}
+			return valid;
+		}
+
+	</script>
+
+	<title> REGISTER </title>
+</head>
+
+<body>
+<div class="registerBOX">
+
+	<img src="bdf7f259-c8f7-4878-a0f9-a7bf5973ded6.jpg" class="avatar">
+	<h1> REGISTER  </h1>
+	<form name="form1" onsubmit="return validateform()">
+		
+		<p>E-mail</p>
+		<input type="username" name="Email1" placeholder="Enter E-mail">
+		<p>Password</p>
+		<input type="password" name="passw1" id= "pass1" placeholder="Enter Password">
+		<p>Confirm Password</p>
+		<input type="password" name="passw2" id="pass2" placeholder="confirm Password">
+		<label> Country (Optional):</label>
+		 <select>
+	   	<option> Default</option>
+		 <option>Egypt</option>
+		 <option>Sudan</option>
+		 <option>Saudi Arabia</option>
+		 <option>Syria</option>
+		 <option>Jordan</option>
+		 <option>Palestine</option>
+		 <option>Iraq</option>
+		 <option>Yemen</option>
+		 <option>Morocco</option>
+		 <option>Libya</option>
+		 <option>Emirates</option>
+		 <option>Algeria</option>
+		 <option>Tunis</option>
+
+		</select>
+		<br>
+		<br>
+		<label> Type of user (Optional) :</label>
+		<BR>
+		<br>
+		<label class="radio"> 
+
+         <input type="radio" class="radio-one"  name="t">
+         
+         Student
+		 </label>
+         <label class="radio"> 
+
+         <input type="radio" class="radio-two" name="t">
+         
+         Teacher
+		 </label>
+     
+        	<input type="Submit" name="" value="REGISTER" >
+        </form>
+
+</div>
+</body>
+
+</html>
